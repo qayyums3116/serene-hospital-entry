@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Heart, BriefcaseMedical, Stethescope, FirstAidKit, Monitor, Medicine } from "lucide-react";
+import { Heart, Briefcase, Stethoscope, Scissors, MonitorSmartphone, Pill } from "lucide-react";
 
 const ServiceCard = ({ icon: Icon, title, description }: { 
   icon: React.ElementType, 
@@ -26,27 +26,27 @@ const Services = () => {
       description: "Comprehensive heart care with advanced diagnostics and personalized treatment plans for cardiac conditions."
     },
     {
-      icon: BriefcaseMedical,
+      icon: Briefcase,
       title: "Emergency Care",
       description: "24/7 emergency services with rapid response teams ready to provide immediate medical attention."
     },
     {
-      icon: Stethescope,
+      icon: Stethoscope,
       title: "General Medicine",
       description: "Primary care services for patients of all ages, focusing on preventive care and wellness."
     },
     {
-      icon: FirstAidKit,
+      icon: Scissors,
       title: "Surgery",
       description: "State-of-the-art surgical facilities with expert surgeons specializing in minimally invasive procedures."
     },
     {
-      icon: Monitor,
+      icon: MonitorSmartphone,
       title: "Diagnostics",
       description: "Advanced imaging and laboratory services providing accurate and timely results for better diagnosis."
     },
     {
-      icon: Medicine,
+      icon: Pill,
       title: "Pharmacy",
       description: "Full-service pharmacy offering prescription medications and expert pharmaceutical advice."
     }
